@@ -21,10 +21,10 @@ public class DataBase {
 			System.out.println("Init Connection");
 			Class.forName("org.apache.derby.jdbc.ClientDriver");
 			//Connection conn = null;
-			conn = DriverManager.getConnection("jdbc:derby://localhost:1527/demo","demo","demo");
+			conn = DriverManager.getConnection("jdbc:derby://localhost:3306/demo","webapp","webapp");
                         Class.forName("com.mysql.jdbc.Driver");
 			//Connection conn = null;
-			//conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/logindemo","root", "admin");
+			//conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/logindemo","webapp", "webapp");
                         System.out.println("connection successful");
                         //conn.close();
 			// Do something with the Connection
