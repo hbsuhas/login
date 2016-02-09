@@ -70,7 +70,7 @@
             <url>http://localhost:8081/nexus/content/repositories/releases</url>
         </repository>
         <snapshotRepository>
-            <id>snapshots</id>
+            <id>nexus</id>
             <name>Snapshots</name>
             <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
         </snapshotRepository>
