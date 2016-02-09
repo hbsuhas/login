@@ -60,6 +60,8 @@
 		</plugins>
 	</build>
 	
+
+
 	 <distributionManagement>
         <repository>
             <id>releases</id>
