@@ -19,7 +19,7 @@ public class DataBase {
 		try {
 			
 			System.out.println("Init Connection");
-			Class.forName("org.apache.derby.jdbc.ClientDriver");
+			Class.forName("org.apache.derby.jdbc.ClientDriver");   
 			//Connection conn = null;
 			
 			conn = DriverManager.getConnection("jdbc:derby://localhost:3306/demo","webapp","webapp"); //
