@@ -22,7 +22,7 @@ public class DataBase {
 			Class.forName("org.apache.derby.jdbc.ClientDriver");     
 			//Connection conn = null;
 			
-			conn = DriverManager.getConnection("jdbc:derby://localhost:3306/demo","webapp","webapp"); //
+			conn = DriverManager.getConnection("jdbc:derby://localhost:3306/demo","webapp","webapp"); 
                         Class.forName("com.mysql.jdbc.Driver");
 			//Connection conn = null;
 			//conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/logindemo","webapp", "webapp");
