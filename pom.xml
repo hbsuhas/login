@@ -56,6 +56,12 @@
                                     <version>1.0-alpha-3</version>
                                     <inherited>true</inherited>
                         </plugin>
+                        
+                        <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-pmd-plugin</artifactId>
+        <version>3.8</version>
+      </plugin>
 
 		</plugins>
 	</build>
